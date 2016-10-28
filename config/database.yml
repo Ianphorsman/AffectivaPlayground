@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: AffectivaPlayground_production
-  username: <%= ENV['AFFECTIVEPLAYGROUND_DATABASE_USERNAME'] %>
+  username: <%= ENV['AFFECTIVAPLAYGROUND_DATABASE_USERNAME'] %>
   password: <%= ENV['AFFECTIVAPLAYGROUND_DATABASE_PASSWORD'] %>
